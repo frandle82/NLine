@@ -1,0 +1,21 @@
+name: Feature-Vorschlag / Didaktische Idee
+description: Schlage eine neue Funktion, Übung oder Visualisierung vor
+title: "[Idee]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Danke, dass du dabei hilfst, NLine zu verbessern!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Beschreibung der Idee
+      description: Welches didaktische Ziel oder welche Funktion möchtest du vorschlagen?
+      placeholder: z. B. Ein Modus zur Darstellung von periodischen Dezimalbrüchen am Strahl...
+    validations:
+      required: true
+  - type: textarea
+    id: target-audience
+    attributes:
+      label: Zielgruppe / Klassenstufe
+      description: Für welche Klassenstufe (z.B. Klasse 5/6) ist dies besonders relevant?

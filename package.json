@@ -1,0 +1,27 @@
+{
+  "name": "nline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interaktive WebApp zur Orientierung am Zahlstrahl mit Brüchen und Dezimalbrüchen für Schülerinnen und Schüler",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "zahlstrahl",
+    "numberline",
+    "brueche",
+    "dezimalbrueche",
+    "mathe-didaktik",
+    "schulmathematik",
+    "education",
+    "interactive-learning"
+  ],
+  "author": "Andreas Grundke",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

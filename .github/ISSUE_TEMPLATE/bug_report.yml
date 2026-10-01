@@ -1,0 +1,22 @@
+name: Fehlerbericht (Bug Report)
+description: Melde einen Darstellungs- oder Funktionsfehler
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Danke für deine Fehlermeldung!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Fehlerbeschreibung
+      description: Eine klare und prägnante Beschreibung des Problems.
+    validations:
+      required: true
+  - type: input
+    id: browser-device
+    attributes:
+      label: Verwendetes Gerät & Browser
+      placeholder: z. B. iPad Safari, Chrome auf Windows, Firefox auf macOS
+    validations:
+      required: true
